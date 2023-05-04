@@ -1,0 +1,453 @@
+body{
+	background-color: 1A1A1B;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	margin: auto;
+	width: 1200px;
+}
+
+#navigator{
+	background-color: 333F44;
+	opacity: .9;
+	padding: 0px;
+	width: 1200px;
+	height: 100px;
+}
+
+#navigator a {
+	float: left;
+	display: inline-block;
+	color: white;
+	padding: 10px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+} 
+
+#navigator a:hover {
+	color: black;
+}
+#nav-right {
+  float: right;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+.featured {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../pic/sh4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.featured h2 {
+	display: inline-block;
+	margin: 0;
+	width: 1050px;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	font-size: 68px;
+	color: black;
+	padding-bottom: 10px;
+}
+
+.featured p {
+	display: inline-block;
+	margin: 0;
+	width: 1050px;
+	font-size: 24px;
+	color: black;
+}
+
+.prodheader h2 {
+	display: block;
+	font-weight: normal;
+	margin: 0;
+	padding: 40px 0;
+	font-size: 24px;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	text-align: center;
+	width: 100%;
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.categories {
+	display:inline-block;
+	width:350px;
+	height:350px;
+	margin:10;
+	padding:10px 10px 10px 10px;	
+	text-align: center;
+}
+
+.pens {
+	margin:10;
+	width:330px;
+	height:330px;
+	border-radius: 180px;
+}
+
+#detail1{
+	margin:10;
+	font-size: 24px;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	color: white;
+}
+#detail2{
+	margin:10;
+	font-size: 24px;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	color: white;
+}
+#detail3{
+	margin:10;
+	font-size: 24px;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	color: white;
+}
+.end {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../pic/sh2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.end h2 {
+	display: inline-block;
+	margin: 0;
+	width: 1050px;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	font-size: 68px;
+	color: black;
+	padding-bottom: 10px;
+}
+
+.end p {
+	display: inline-block;
+	margin: 0;
+	width: 1050px;
+	font-size: 24px;
+	color: black;
+}
+
+
+.footer{
+	background-color: 333F44;
+	opacity: .9;
+	padding: 0px;
+	width: 1200px;
+	height: 100px;
+}
+.footer a {
+	float: left;
+	display: inline-block;
+	padding: 10px 16px;
+} 
+
+#socmed {
+  float: left;
+  padding-top: 15px;
+
+}
+#name {
+	float: right;
+	padding-top: 15px;
+	padding-right: 50 px;
+	color: white;
+	font-family: Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+}
+
+.app-form{
+    height: 750px;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../aboutpics/featured.jpg);
+	background-color: #777;
+}
+
+.inputs{
+	position: center;
+	overflow: hidden;
+    border-radius: 30px;
+	background-color: white;
+    width: 450px;
+	margin: 0px auto;
+    overflow: hidden;
+	color: black;
+	padding: 30px 50px 50px 50px;
+
+}
+
+.input_field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #777;
+    outline: none;
+    background: transparent;
+
+
+}
+
+.submit_btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #37AA9C, #94F3E4);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check_box{
+    margin: 30px 10px 30px 0;
+}
+::placeholder {
+    color: #777;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../aboutpics/f.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+}
+
+.about h2 {
+	display: inline-block;
+	margin: 0;
+	width: 1050px;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	font-size: 68px;
+	color: black;
+	padding-bottom: 10px;
+}
+
+.about p {
+	display: inline-block;
+	margin: 0;
+	width: 1050px;
+	font-size: 24px;
+	color: black;
+}
+
+.about2 {
+	display:inline-block;
+	width:1000px;
+	height:auto;
+	margin:0;
+	padding:1%;
+	border:0;
+	
+}
+.abouttext {
+	float: left;
+	padding-left: 80px;
+}
+.abouttext h2 {
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	font-size: 42px;
+	color: white;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.abouttext p {
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+
+.aboutpic {
+	padding-top: 10px;
+	float: right;
+}
+
+.partners {
+	display:inline-block;
+	width:235px;
+	height:235px;
+	margin:0;
+	padding-left:0;
+	border:0;
+	border-radius: 120px;
+}
+
+.aboutpartners h2 {
+	display: block;
+	font-weight: normal;
+	margin: 0;
+	padding: 40px 0;
+	font-size: 24px;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	text-align: center;
+	width: 100%;
+	color: white;
+	border-top: 1px solid white;
+}
+
+#pt1 {
+	background-image: url(../aboutpics/artek.png);
+	background-repeat: no-repeat;
+}
+#pt2 {
+	background-image: url(../aboutpics/artemide.png);
+	background-repeat: no-repeat;
+}
+#pt3 {
+	background-image: url(../aboutpics/ch.png);
+	background-repeat: no-repeat;
+}
+#pt4 {
+	background-image: url(../aboutpics/flos.png);
+	background-repeat: no-repeat;
+}
+#pt5 {
+	background-image: url(../aboutpics/ger.png);
+	background-repeat: no-repeat;
+}
+#pt6 {
+	background-image: url(../aboutpics/glas.png);
+	background-repeat: no-repeat;
+}
+#pt7 {
+	background-image: url(../aboutpics/magis.png);
+	background-repeat: no-repeat;
+}
+#pt8 {
+	background-image: url(../aboutpics/moroso.png);
+	background-repeat: no-repeat;
+}
+#pt9 {
+	background-image: url(../aboutpics/vitra.png);
+	background-repeat: no-repeat;
+}
+#pt0 {
+	background-image: url(../aboutpics/zanotta.png);
+	background-repeat: no-repeat;
+}
+#googleMap h2{
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	font-family: Arial;
+}
+
+.prodlist {
+
+	width: 1200px;
+	height:auto;
+	margin: 0;
+	padding:1%;
+	border:0;
+	background-color: white;
+	box-sizing: border-box;
+}
+.prodlist h2 {
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	font-size: 42px;
+	color: black;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.column {
+	float: left;
+	width: 48%;
+	padding: 0 10px;
+}
+.prodlist:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+	margin-bottom: 20px;
+}
+.content {
+	width: 1175px;
+	height:auto;
+	margin: 0;
+	padding:1%;
+	border:0;
+	background-color: white;
+}
+.listpic {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#quantity{
+	width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 1px solid #777;
+}
+.content h3 {
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	font-size: 28px;
+	color: black;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.content p {
+	font-family: Arial, Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	font-size: 18px;
+	color: black;
+	padding-bottom: 10px;
+
+}
+.content h4 {
+	font-size: 20px;
+	color: black;
+	padding-bottom: 10px;
+}
+
+#categoriesnav{
+	background-color: antiquewhite;
+	opacity: .9;
+	padding: 0px;
+	width: 1200px;
+	height: 50px;
+}
+
+#categoriesnav a {
+	font-family: Arial, Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	float: center;
+	display: inline-block;
+	color: black;
+	padding: 15px 16px 0px 210px;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+} 
+
+#categoriesnav a:hover {
+	color: grey;
+}
+
